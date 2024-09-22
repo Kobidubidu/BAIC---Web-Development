@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+    padding: 20px;
+}
+
+.about-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.about-header {
+    text-align: center;
+    padding: 20px;
+    border-bottom: 2px solid #eaeaea;
+}
+
+.about-header h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+.about-header p {
+    font-size: 1.2em;
+    color: #666;
+}
+
+.about-content {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px 0;
+}
+
+.about-image {
+    flex: 1;
+    padding-right: 20px;
+}
+
+.about-image img {
+    max-width: 100%;
+    border-radius: 8px;
+}
+
+.about-text {
+    flex: 2;
+}
+
+.about-text h2 {
+    font-size: 2em;
+    margin-bottom: 15px;
+}
+
+.about-text p {
+    font-size: 1.1em;
+    margin-bottom: 15px;
+    color: #555;
+}
+.about-mission {
+    text-align: center;
+    padding: 40px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border-radius: 8px;
+    margin-top: 20px;
+}
+
+.about-mission h2 {
+    font-size: 2em;
+    margin-bottom: 15px;
+}
+
+.about-mission p {
+    font-size: 1.2em;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    color: #666;
+    margin-top: 20px;
+}
+
+@media (max-width: 768px) {
+    .about-content {
+        flex-direction: column;
+    }
+
+    .about-image {
+        padding-right: 0;
+        margin-bottom: 20px;
+    }
+
+    .about-text {
+        text-align: justify;
+    }
+}
+    </style>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <div class="about-container">
+        <section class="about-header">
+            <h1>About Us</h1>
+            <p>Learn more about our mission, vision, and the project we are working on.</p>
+        </section>
+
+        <section class="about-content">
+            <div class="about-image">
+                <img src="project-image.jpg" alt="Our Project Image">
+            </div>
+            <div class="about-text">
+                <h2>Our Story</h2>
+                <p>
+                    Our project is dedicated to delivering the most innovative solutions in the field of virtual experiences.
+                    We believe that technology should be used to create meaningful connections and bridge the gap between people, 
+                    no matter where they are.
+                </p>
+                <p>
+                    We started with a small team of visionaries who wanted to redefine how people experience the world around them. 
+                    Today, we are expanding, but our core values remain the same: innovation, community, and creativity.
+                </p>
+                <p>
+                    With our virtual reality platform, users can immerse themselves in stunning environments, interact with AI-powered guides, 
+                    and explore the world from the comfort of their homes. This project is built to inspire, educate, and bring joy to everyone who uses it.
+                </p>
+            </div>
+        </section>
+
+        <section class="about-mission">
+            <h2>Our Mission</h2>
+            <p>
+                We are committed to making virtual reality accessible to everyone and helping users experience new places, cultures, 
+                and adventures without the limitations of time or distance.
+            </p>
+        </section>
+
+        <footer>
+            <p>&copy; 2024 Our Website | All Rights Reserved</p>
+        </footer>
+    </div>
+
+</body>
+</html>
